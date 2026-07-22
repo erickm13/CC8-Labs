@@ -12,7 +12,7 @@ public class Client {
     
     switch (args.length) {
       case 0:
-        System.out.println("No se han ingresado argumentos");
+        System.out.println("No se han ingresado argumentos, vuelva a intentarlo...");
         break;
       default:
           if(args[1].contains("--help")){
