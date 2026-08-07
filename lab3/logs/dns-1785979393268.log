@@ -1,0 +1,11 @@
+[2026-08-05 19:23:13.278] [INFO] == Lab03 :: Servidor DNS/UDP iniciando ==
+[2026-08-05 19:23:13.284] [INFO] Zona local cargada desde 'records.db': 7 registros
+[2026-08-05 19:23:13.293] [INFO] Servidor DNS escuchando en UDP:5354 | threads=4 | upstream=8.8.8.8:53
+[2026-08-05 19:23:15.258] [INFO] REQUEST  <- 127.0.0.1:47409 | id=44314 A example.local (RD=1)
+[2026-08-05 19:23:15.260] [INFO] RESPONSE -> 127.0.0.1:47409 | id=44314 A example.local | LOCAL (1 registro(s), AA=1)
+[2026-08-05 19:23:15.272] [INFO] REQUEST  <- 127.0.0.1:49610 | id=50617 AAAA example.local (RD=1)
+[2026-08-05 19:23:15.272] [INFO] RESPONSE -> 127.0.0.1:49610 | id=50617 AAAA example.local | LOCAL (1 registro(s), AA=1)
+[2026-08-05 19:23:15.285] [INFO] REQUEST  <- 127.0.0.1:37303 | id=60846 PTR 10.1.168.192.in-addr.arpa (RD=1)
+[2026-08-05 19:23:15.286] [INFO] RESPONSE -> 127.0.0.1:37303 | id=60846 PTR 10.1.168.192.in-addr.arpa | LOCAL (1 registro(s), AA=1)
+[2026-08-05 19:23:15.303] [INFO] REQUEST  <- 127.0.0.1:45788 | id=29173 A google.com (RD=1)
+[2026-08-05 19:23:15.348] [INFO] RESPONSE -> 127.0.0.1:45788 | id=29173 FORWARD via 8.8.8.8:53 (44 bytes)

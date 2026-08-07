@@ -1,0 +1,23 @@
+# Zona local del servidor DNS - Lab03
+# ------------------------------------
+# Formato:  nombre    TIPO    valor    [ttl]
+#   - TIPO admite: A, AAAA, PTR (implementados de forma completa)
+#   - ttl es opcional (por defecto 300 segundos)
+# Las lineas vacias y las que empiezan con '#' se ignoran.
+#
+# Cualquier nombre que NO este aqui se resuelve por recursividad
+# reenviando la consulta al DNS publico configurado (-upstream).
+
+# --- Registros A (IPv4) ---
+example.local          A       192.168.1.10     300
+router.local           A       192.168.1.1      3600
+fisicc.local           A       10.0.0.53        300
+
+# --- Registros AAAA (IPv6) ---
+example.local          AAAA    fe80::1          300
+ipv6.local             AAAA    2001:db8::53     300
+
+# --- Registros PTR (reverse DNS: IP -> nombre) ---
+# El nombre se escribe en formato in-addr.arpa (octetos invertidos)
+10.1.168.192.in-addr.arpa   PTR   example.local   300
+1.1.168.192.in-addr.arpa    PTR   router.local    3600
