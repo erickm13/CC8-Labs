@@ -1,0 +1,213 @@
+[2026-08-13 02:06:51 UTC] ================ Cliente NTP (Lab04) ================
+[2026-08-13 02:06:51 UTC] Servidores: 8 | umbral=100 ms | timeout=2000 ms | intervalo=60s | retry=5s | tz=-6
+[2026-08-13 02:06:51 UTC] Reloj interno arranca con la hora real del sistema.
+[2026-08-13 02:06:51 UTC] 
+[2026-08-13 02:06:51 UTC] ---------------- Ronda 1 ----------------
+[2026-08-13 02:06:51 UTC]   Reloj interno (antes ): 2026-08-12 20:06:51.884 GT  |  2026-08-13 02:06:51.884 UTC
+[2026-08-13 02:06:51 UTC]   Consultando 8 servidores NTP...
+[2026-08-13 02:06:52 UTC]   [OK] pool.ntp.org                 offset=-0.032176 s (-32.176 ms)  delay=0.299799 s (299.799 ms)
+[2026-08-13 02:06:52 UTC]   [OK] time.google.com              offset=-0.017893 s (-17.893 ms)  delay=0.287354 s (287.354 ms)
+[2026-08-13 02:06:52 UTC]   [OK] time.cloudflare.com          offset=-0.003042 s (-3.042 ms)  delay=0.220229 s (220.229 ms)
+[2026-08-13 02:06:52 UTC]   [OK] time.apple.com               offset=+0.022732 s (+22.732 ms)  delay=0.169455 s (169.455 ms)
+[2026-08-13 02:06:52 UTC]   [OK] time.windows.com             offset=+0.056181 s (+56.181 ms)  delay=0.116968 s (116.968 ms)
+[2026-08-13 02:06:52 UTC]   [OK] time.nist.gov                offset=+0.085310 s (+85.310 ms)  delay=0.086389 s (86.389 ms)
+[2026-08-13 02:06:52 UTC]   [OK] 0.south-america.pool.ntp.org offset=+0.055848 s (+55.848 ms)  delay=0.213309 s (213.309 ms)
+[2026-08-13 02:06:52 UTC]   [OK] 1.pool.ntp.org               offset=+0.093300 s (+93.300 ms)  delay=0.143853 s (143.853 ms)
+[2026-08-13 02:06:52 UTC]   => Mejor servidor: time.nist.gov  (delay=86.389 ms, offset=+85.310 ms)
+[2026-08-13 02:06:52 UTC]      T1 (envio cliente)   = 2026-08-12 20:06:52.160 GT
+[2026-08-13 02:06:52 UTC]      T2 (recibe servidor) = 2026-08-12 20:06:52.289 GT
+[2026-08-13 02:06:52 UTC]      T3 (responde server) = 2026-08-12 20:06:52.289 GT
+[2026-08-13 02:06:52 UTC]      T4 (recibe cliente)  = 2026-08-12 20:06:52.247 GT
+[2026-08-13 02:06:52 UTC]   Aplicando offset de +85.310 ms al reloj interno...
+[2026-08-13 02:06:52 UTC]   Reloj interno (despues): 2026-08-12 20:06:52.493 GT  |  2026-08-13 02:06:52.493 UTC
+[2026-08-13 02:06:52 UTC]   >>> SINCRONIZADO: |offset|=85.310 ms <= umbral 100.000 ms
+[2026-08-13 02:06:52 UTC]   (esperando 60s antes de la siguiente ronda)
+[2026-08-13 02:07:52 UTC] 
+[2026-08-13 02:07:52 UTC] ---------------- Ronda 2 ----------------
+[2026-08-13 02:07:52 UTC]   Reloj interno (antes ): 2026-08-12 20:07:52.493 GT  |  2026-08-13 02:07:52.493 UTC
+[2026-08-13 02:07:52 UTC]   Consultando 8 servidores NTP...
+[2026-08-13 02:07:54 UTC]   [OK] pool.ntp.org                 offset=-0.006718 s (-6.718 ms)  delay=0.141019 s (141.019 ms)
+[2026-08-13 02:07:54 UTC]   [OK] time.google.com              offset=-0.038570 s (-38.570 ms)  delay=0.130951 s (130.951 ms)
+[2026-08-13 02:07:54 UTC]   [OK] time.cloudflare.com          offset=-0.033408 s (-33.408 ms)  delay=0.112610 s (112.610 ms)
+[2026-08-13 02:07:54 UTC]   [--] time.apple.com               (sin respuesta)
+[2026-08-13 02:07:54 UTC]   [OK] time.windows.com             offset=-0.011056 s (-11.056 ms)  delay=0.082273 s (82.273 ms)
+[2026-08-13 02:07:54 UTC]   [OK] time.nist.gov                offset=+0.006197 s (+6.197 ms)  delay=0.074728 s (74.728 ms)
+[2026-08-13 02:07:54 UTC]   [OK] 0.south-america.pool.ntp.org offset=-0.076605 s (-76.605 ms)  delay=0.299395 s (299.395 ms)
+[2026-08-13 02:07:54 UTC]   [OK] 1.pool.ntp.org               offset=+0.006843 s (+6.843 ms)  delay=0.064538 s (64.538 ms)
+[2026-08-13 02:07:54 UTC]   => Mejor servidor: 1.pool.ntp.org  (delay=64.538 ms, offset=+6.843 ms)
+[2026-08-13 02:07:54 UTC]      T1 (envio cliente)   = 2026-08-12 20:07:52.640 GT
+[2026-08-13 02:07:54 UTC]      T2 (recibe servidor) = 2026-08-12 20:07:52.679 GT
+[2026-08-13 02:07:54 UTC]      T3 (responde server) = 2026-08-12 20:07:52.679 GT
+[2026-08-13 02:07:54 UTC]      T4 (recibe cliente)  = 2026-08-12 20:07:52.705 GT
+[2026-08-13 02:07:54 UTC]   Aplicando offset de +6.843 ms al reloj interno...
+[2026-08-13 02:07:54 UTC]   Reloj interno (despues): 2026-08-12 20:07:54.648 GT  |  2026-08-13 02:07:54.648 UTC
+[2026-08-13 02:07:54 UTC]   >>> Verificacion OK: |offset|=6.843 ms <= umbral 100.000 ms
+[2026-08-13 02:07:54 UTC]   (esperando 60s antes de la siguiente ronda)
+[2026-08-13 02:08:54 UTC] 
+[2026-08-13 02:08:54 UTC] ---------------- Ronda 3 ----------------
+[2026-08-13 02:08:54 UTC]   Reloj interno (antes ): 2026-08-12 20:08:54.648 GT  |  2026-08-13 02:08:54.648 UTC
+[2026-08-13 02:08:54 UTC]   Consultando 8 servidores NTP...
+[2026-08-13 02:08:56 UTC]   [OK] pool.ntp.org                 offset=-0.052067 s (-52.067 ms)  delay=0.192362 s (192.362 ms)
+[2026-08-13 02:08:56 UTC]   [OK] time.google.com              offset=-0.075322 s (-75.322 ms)  delay=0.192227 s (192.227 ms)
+[2026-08-13 02:08:56 UTC]   [OK] time.cloudflare.com          offset=-0.080741 s (-80.741 ms)  delay=0.192038 s (192.038 ms)
+[2026-08-13 02:08:56 UTC]   [--] time.apple.com               (sin respuesta)
+[2026-08-13 02:08:56 UTC]   [OK] time.windows.com             offset=-0.035092 s (-35.092 ms)  delay=0.144705 s (144.705 ms)
+[2026-08-13 02:08:56 UTC]   [OK] time.nist.gov                offset=-0.008260 s (-8.260 ms)  delay=0.095078 s (95.078 ms)
+[2026-08-13 02:08:56 UTC]   [OK] 0.south-america.pool.ntp.org offset=+0.005401 s (+5.401 ms)  delay=0.150133 s (150.133 ms)
+[2026-08-13 02:08:56 UTC]   [OK] 1.pool.ntp.org               offset=-0.013790 s (-13.790 ms)  delay=0.115713 s (115.713 ms)
+[2026-08-13 02:08:56 UTC]   => Mejor servidor: time.nist.gov  (delay=95.078 ms, offset=-8.260 ms)
+[2026-08-13 02:08:56 UTC]      T1 (envio cliente)   = 2026-08-12 20:08:54.765 GT
+[2026-08-13 02:08:56 UTC]      T2 (recibe servidor) = 2026-08-12 20:08:54.804 GT
+[2026-08-13 02:08:56 UTC]      T3 (responde server) = 2026-08-12 20:08:54.804 GT
+[2026-08-13 02:08:56 UTC]      T4 (recibe cliente)  = 2026-08-12 20:08:54.860 GT
+[2026-08-13 02:08:56 UTC]   Aplicando offset de -8.260 ms al reloj interno...
+[2026-08-13 02:08:56 UTC]   Reloj interno (despues): 2026-08-12 20:08:56.838 GT  |  2026-08-13 02:08:56.838 UTC
+[2026-08-13 02:08:56 UTC]   >>> Verificacion OK: |offset|=8.260 ms <= umbral 100.000 ms
+[2026-08-13 02:08:56 UTC]   (esperando 60s antes de la siguiente ronda)
+[2026-08-13 02:09:56 UTC] 
+[2026-08-13 02:09:56 UTC] ---------------- Ronda 4 ----------------
+[2026-08-13 02:09:56 UTC]   Reloj interno (antes ): 2026-08-12 20:09:56.838 GT  |  2026-08-13 02:09:56.838 UTC
+[2026-08-13 02:09:56 UTC]   Consultando 8 servidores NTP...
+[2026-08-13 02:09:57 UTC]   [OK] pool.ntp.org                 offset=-0.248298 s (-248.298 ms)  delay=0.602891 s (602.891 ms)
+[2026-08-13 02:09:57 UTC]   [OK] time.google.com              offset=-0.272197 s (-272.197 ms)  delay=0.602649 s (602.649 ms)
+[2026-08-13 02:09:57 UTC]   [OK] time.cloudflare.com          offset=-0.276203 s (-276.203 ms)  delay=0.599830 s (599.830 ms)
+[2026-08-13 02:09:57 UTC]   [OK] time.apple.com               offset=-0.276735 s (-276.735 ms)  delay=0.599594 s (599.594 ms)
+[2026-08-13 02:09:57 UTC]   [OK] time.windows.com             offset=-0.019963 s (-19.963 ms)  delay=0.125233 s (125.233 ms)
+[2026-08-13 02:09:57 UTC]   [OK] time.nist.gov                offset=+0.008758 s (+8.758 ms)  delay=0.077482 s (77.482 ms)
+[2026-08-13 02:09:57 UTC]   [OK] 0.south-america.pool.ntp.org offset=+0.014682 s (+14.682 ms)  delay=0.149374 s (149.374 ms)
+[2026-08-13 02:09:57 UTC]   [OK] 1.pool.ntp.org               offset=+0.011515 s (+11.515 ms)  delay=0.030876 s (30.876 ms)
+[2026-08-13 02:09:57 UTC]   => Mejor servidor: 1.pool.ntp.org  (delay=30.876 ms, offset=+11.515 ms)
+[2026-08-13 02:09:57 UTC]      T1 (envio cliente)   = 2026-08-12 20:09:57.492 GT
+[2026-08-13 02:09:57 UTC]      T2 (recibe servidor) = 2026-08-12 20:09:57.519 GT
+[2026-08-13 02:09:57 UTC]      T3 (responde server) = 2026-08-12 20:09:57.519 GT
+[2026-08-13 02:09:57 UTC]      T4 (recibe cliente)  = 2026-08-12 20:09:57.523 GT
+[2026-08-13 02:09:57 UTC]   Aplicando offset de +11.515 ms al reloj interno...
+[2026-08-13 02:09:57 UTC]   Reloj interno (despues): 2026-08-12 20:09:57.581 GT  |  2026-08-13 02:09:57.581 UTC
+[2026-08-13 02:09:57 UTC]   >>> Verificacion OK: |offset|=11.515 ms <= umbral 100.000 ms
+[2026-08-13 02:09:57 UTC]   (esperando 60s antes de la siguiente ronda)
+[2026-08-13 02:10:57 UTC] 
+[2026-08-13 02:10:57 UTC] ---------------- Ronda 5 ----------------
+[2026-08-13 02:10:57 UTC]   Reloj interno (antes ): 2026-08-12 20:10:57.582 GT  |  2026-08-13 02:10:57.582 UTC
+[2026-08-13 02:10:57 UTC]   Consultando 8 servidores NTP...
+[2026-08-13 02:11:00 UTC]   [OK] pool.ntp.org                 offset=-0.245474 s (-245.474 ms)  delay=0.568287 s (568.287 ms)
+[2026-08-13 02:11:00 UTC]   [OK] time.google.com              offset=-0.263758 s (-263.758 ms)  delay=0.567927 s (567.927 ms)
+[2026-08-13 02:11:00 UTC]   [OK] time.cloudflare.com          offset=-0.240413 s (-240.413 ms)  delay=0.513219 s (513.219 ms)
+[2026-08-13 02:11:00 UTC]   [--] time.apple.com               (sin respuesta)
+[2026-08-13 02:11:00 UTC]   [OK] time.windows.com             offset=-0.083257 s (-83.257 ms)  delay=0.208469 s (208.469 ms)
+[2026-08-13 02:11:00 UTC]   [OK] time.nist.gov                offset=+0.030692 s (+30.692 ms)  delay=0.185754 s (185.754 ms)
+[2026-08-13 02:11:00 UTC]   [OK] 0.south-america.pool.ntp.org offset=+0.006674 s (+6.674 ms)  delay=0.150082 s (150.082 ms)
+[2026-08-13 02:11:00 UTC]   [OK] 1.pool.ntp.org               offset=+0.000638 s (+0.638 ms)  delay=0.131496 s (131.496 ms)
+[2026-08-13 02:11:00 UTC]   => Mejor servidor: 1.pool.ntp.org  (delay=131.496 ms, offset=+0.638 ms)
+[2026-08-13 02:11:00 UTC]      T1 (envio cliente)   = 2026-08-12 20:10:58.359 GT
+[2026-08-13 02:11:00 UTC]      T2 (recibe servidor) = 2026-08-12 20:10:58.425 GT
+[2026-08-13 02:11:00 UTC]      T3 (responde server) = 2026-08-12 20:10:58.425 GT
+[2026-08-13 02:11:00 UTC]      T4 (recibe cliente)  = 2026-08-12 20:10:58.490 GT
+[2026-08-13 02:11:00 UTC]   Aplicando offset de +0.638 ms al reloj interno...
+[2026-08-13 02:11:00 UTC]   Reloj interno (despues): 2026-08-12 20:11:00.362 GT  |  2026-08-13 02:11:00.362 UTC
+[2026-08-13 02:11:00 UTC]   >>> Verificacion OK: |offset|=0.638 ms <= umbral 100.000 ms
+[2026-08-13 02:11:00 UTC]   (esperando 60s antes de la siguiente ronda)
+[2026-08-13 02:12:00 UTC] 
+[2026-08-13 02:12:00 UTC] ---------------- Ronda 6 ----------------
+[2026-08-13 02:12:00 UTC]   Reloj interno (antes ): 2026-08-12 20:12:00.362 GT  |  2026-08-13 02:12:00.362 UTC
+[2026-08-13 02:12:00 UTC]   Consultando 8 servidores NTP...
+[2026-08-13 02:12:01 UTC]   [OK] pool.ntp.org                 offset=-0.251638 s (-251.638 ms)  delay=0.582924 s (582.924 ms)
+[2026-08-13 02:12:01 UTC]   [OK] time.google.com              offset=-0.270450 s (-270.450 ms)  delay=0.582714 s (582.714 ms)
+[2026-08-13 02:12:01 UTC]   [OK] time.cloudflare.com          offset=-0.259917 s (-259.917 ms)  delay=0.545721 s (545.721 ms)
+[2026-08-13 02:12:01 UTC]   [OK] time.apple.com               offset=-0.259407 s (-259.407 ms)  delay=0.545268 s (545.268 ms)
+[2026-08-13 02:12:01 UTC]   [OK] time.windows.com             offset=-0.126922 s (-126.922 ms)  delay=0.294508 s (294.508 ms)
+[2026-08-13 02:12:01 UTC]   [OK] time.nist.gov                offset=-0.062345 s (-62.345 ms)  delay=0.198819 s (198.819 ms)
+[2026-08-13 02:12:01 UTC]   [OK] 0.south-america.pool.ntp.org offset=-0.156633 s (-156.633 ms)  delay=0.458737 s (458.737 ms)
+[2026-08-13 02:12:01 UTC]   [OK] 1.pool.ntp.org               offset=-0.142498 s (-142.498 ms)  delay=0.348999 s (348.999 ms)
+[2026-08-13 02:12:01 UTC]   => Mejor servidor: time.nist.gov  (delay=198.819 ms, offset=-62.345 ms)
+[2026-08-13 02:12:01 UTC]      T1 (envio cliente)   = 2026-08-12 20:12:00.975 GT
+[2026-08-13 02:12:01 UTC]      T2 (recibe servidor) = 2026-08-12 20:12:01.012 GT
+[2026-08-13 02:12:01 UTC]      T3 (responde server) = 2026-08-12 20:12:01.012 GT
+[2026-08-13 02:12:01 UTC]      T4 (recibe cliente)  = 2026-08-12 20:12:01.174 GT
+[2026-08-13 02:12:01 UTC]   Aplicando offset de -62.345 ms al reloj interno...
+[2026-08-13 02:12:01 UTC]   Reloj interno (despues): 2026-08-12 20:12:01.461 GT  |  2026-08-13 02:12:01.461 UTC
+[2026-08-13 02:12:01 UTC]   >>> Verificacion OK: |offset|=62.345 ms <= umbral 100.000 ms
+[2026-08-13 02:12:01 UTC]   (esperando 60s antes de la siguiente ronda)
+[2026-08-13 02:13:01 UTC] 
+[2026-08-13 02:13:01 UTC] ---------------- Ronda 7 ----------------
+[2026-08-13 02:13:01 UTC]   Reloj interno (antes ): 2026-08-12 20:13:01.461 GT  |  2026-08-13 02:13:01.461 UTC
+[2026-08-13 02:13:01 UTC]   Consultando 8 servidores NTP...
+[2026-08-13 02:13:09 UTC]   [OK] pool.ntp.org                 offset=-2.806091 s (-2806.091 ms)  delay=5.821532 s (5821.532 ms)
+[2026-08-13 02:13:09 UTC]   [OK] time.google.com              offset=-2.824996 s (-2824.996 ms)  delay=5.821149 s (5821.149 ms)
+[2026-08-13 02:13:09 UTC]   [OK] time.cloudflare.com          offset=-2.830075 s (-2830.075 ms)  delay=5.820966 s (5820.966 ms)
+[2026-08-13 02:13:09 UTC]   [OK] time.apple.com               offset=-2.824636 s (-2824.636 ms)  delay=5.820837 s (5820.837 ms)
+[2026-08-13 02:13:09 UTC]   [--] time.windows.com             (sin respuesta)
+[2026-08-13 02:13:09 UTC]   [OK] time.nist.gov                offset=-2.651161 s (-2651.161 ms)  delay=5.507550 s (5507.550 ms)
+[2026-08-13 02:13:09 UTC]   [OK] 0.south-america.pool.ntp.org offset=+0.027970 s (+27.970 ms)  delay=0.214044 s (214.044 ms)
+[2026-08-13 02:13:09 UTC]   [OK] 1.pool.ntp.org               offset=+0.057173 s (+57.173 ms)  delay=0.114788 s (114.788 ms)
+[2026-08-13 02:13:09 UTC]   => Mejor servidor: 1.pool.ntp.org  (delay=114.788 ms, offset=+57.173 ms)
+[2026-08-13 02:13:09 UTC]      T1 (envio cliente)   = 2026-08-12 20:13:07.295 GT
+[2026-08-13 02:13:09 UTC]      T2 (recibe servidor) = 2026-08-12 20:13:07.409 GT
+[2026-08-13 02:13:09 UTC]      T3 (responde server) = 2026-08-12 20:13:07.409 GT
+[2026-08-13 02:13:09 UTC]      T4 (recibe cliente)  = 2026-08-12 20:13:07.410 GT
+[2026-08-13 02:13:09 UTC]   Aplicando offset de +57.173 ms al reloj interno...
+[2026-08-13 02:13:09 UTC]   Reloj interno (despues): 2026-08-12 20:13:09.354 GT  |  2026-08-13 02:13:09.354 UTC
+[2026-08-13 02:13:09 UTC]   >>> Verificacion OK: |offset|=57.173 ms <= umbral 100.000 ms
+[2026-08-13 02:13:09 UTC]   (esperando 60s antes de la siguiente ronda)
+[2026-08-13 02:14:09 UTC] 
+[2026-08-13 02:14:09 UTC] ---------------- Ronda 8 ----------------
+[2026-08-13 02:14:09 UTC]   Reloj interno (antes ): 2026-08-12 20:14:09.354 GT  |  2026-08-13 02:14:09.354 UTC
+[2026-08-13 02:14:09 UTC]   Consultando 8 servidores NTP...
+[2026-08-13 02:14:09 UTC]   [OK] pool.ntp.org                 offset=-0.153122 s (-153.122 ms)  delay=0.420696 s (420.696 ms)
+[2026-08-13 02:14:09 UTC]   [OK] time.google.com              offset=-0.181668 s (-181.668 ms)  delay=0.420341 s (420.341 ms)
+[2026-08-13 02:14:09 UTC]   [OK] time.cloudflare.com          offset=-0.186932 s (-186.932 ms)  delay=0.420050 s (420.050 ms)
+[2026-08-13 02:14:09 UTC]   [OK] time.apple.com               offset=+0.066587 s (+66.587 ms)  delay=0.419608 s (419.608 ms)
+[2026-08-13 02:14:09 UTC]   [OK] time.windows.com             offset=-0.148352 s (-148.352 ms)  delay=0.361376 s (361.376 ms)
+[2026-08-13 02:14:09 UTC]   [OK] time.nist.gov                offset=-0.104578 s (-104.578 ms)  delay=0.293131 s (293.131 ms)
+[2026-08-13 02:14:09 UTC]   [OK] 0.south-america.pool.ntp.org offset=-0.083002 s (-83.002 ms)  delay=0.333378 s (333.378 ms)
+[2026-08-13 02:14:09 UTC]   [OK] 1.pool.ntp.org               offset=-0.048004 s (-48.004 ms)  delay=0.211602 s (211.602 ms)
+[2026-08-13 02:14:09 UTC]   => Mejor servidor: 1.pool.ntp.org  (delay=211.602 ms, offset=-48.004 ms)
+[2026-08-13 02:14:09 UTC]      T1 (envio cliente)   = 2026-08-12 20:14:09.848 GT
+[2026-08-13 02:14:09 UTC]      T2 (recibe servidor) = 2026-08-12 20:14:09.906 GT
+[2026-08-13 02:14:09 UTC]      T3 (responde server) = 2026-08-12 20:14:09.906 GT
+[2026-08-13 02:14:09 UTC]      T4 (recibe cliente)  = 2026-08-12 20:14:10.059 GT
+[2026-08-13 02:14:09 UTC]   Aplicando offset de -48.004 ms al reloj interno...
+[2026-08-13 02:14:09 UTC]   Reloj interno (despues): 2026-08-12 20:14:10.012 GT  |  2026-08-13 02:14:10.012 UTC
+[2026-08-13 02:14:09 UTC]   >>> Verificacion OK: |offset|=48.004 ms <= umbral 100.000 ms
+[2026-08-13 02:14:09 UTC]   (esperando 60s antes de la siguiente ronda)
+[2026-08-13 02:15:09 UTC] 
+[2026-08-13 02:15:09 UTC] ---------------- Ronda 9 ----------------
+[2026-08-13 02:15:09 UTC]   Reloj interno (antes ): 2026-08-12 20:15:10.012 GT  |  2026-08-13 02:15:10.012 UTC
+[2026-08-13 02:15:09 UTC]   Consultando 8 servidores NTP...
+[2026-08-13 02:15:12 UTC]   [OK] pool.ntp.org                 offset=-0.616153 s (-616.153 ms)  delay=1.576904 s (1576.904 ms)
+[2026-08-13 02:15:12 UTC]   [OK] time.google.com              offset=-0.593864 s (-593.864 ms)  delay=1.576249 s (1576.249 ms)
+[2026-08-13 02:15:12 UTC]   [OK] time.cloudflare.com          offset=-0.607148 s (-607.148 ms)  delay=1.367147 s (1367.147 ms)
+[2026-08-13 02:15:12 UTC]   [OK] time.apple.com               offset=-0.608233 s (-608.233 ms)  delay=1.366515 s (1366.515 ms)
+[2026-08-13 02:15:12 UTC]   [OK] time.windows.com             offset=-0.317989 s (-317.989 ms)  delay=1.247844 s (1247.844 ms)
+[2026-08-13 02:15:12 UTC]   [OK] time.nist.gov                offset=-0.223029 s (-223.029 ms)  delay=0.765000 s (765.000 ms)
+[2026-08-13 02:15:12 UTC]   [OK] 0.south-america.pool.ntp.org offset=-0.056609 s (-56.609 ms)  delay=0.617143 s (617.143 ms)
+[2026-08-13 02:15:12 UTC]   [OK] 1.pool.ntp.org               offset=-0.028292 s (-28.292 ms)  delay=0.302927 s (302.927 ms)
+[2026-08-13 02:15:12 UTC]   => Mejor servidor: 1.pool.ntp.org  (delay=302.927 ms, offset=-28.292 ms)
+[2026-08-13 02:15:12 UTC]      T1 (envio cliente)   = 2026-08-12 20:15:12.647 GT
+[2026-08-13 02:15:12 UTC]      T2 (recibe servidor) = 2026-08-12 20:15:12.771 GT
+[2026-08-13 02:15:12 UTC]      T3 (responde server) = 2026-08-12 20:15:12.771 GT
+[2026-08-13 02:15:12 UTC]      T4 (recibe cliente)  = 2026-08-12 20:15:12.950 GT
+[2026-08-13 02:15:12 UTC]   Aplicando offset de -28.292 ms al reloj interno...
+[2026-08-13 02:15:12 UTC]   Reloj interno (despues): 2026-08-12 20:15:12.922 GT  |  2026-08-13 02:15:12.922 UTC
+[2026-08-13 02:15:12 UTC]   >>> Verificacion OK: |offset|=28.292 ms <= umbral 100.000 ms
+[2026-08-13 02:15:12 UTC]   (esperando 60s antes de la siguiente ronda)
+[2026-08-13 02:16:12 UTC] 
+[2026-08-13 02:16:12 UTC] ---------------- Ronda 10 ----------------
+[2026-08-13 02:16:12 UTC]   Reloj interno (antes ): 2026-08-12 20:16:12.923 GT  |  2026-08-13 02:16:12.923 UTC
+[2026-08-13 02:16:12 UTC]   Consultando 8 servidores NTP...
+[2026-08-13 02:16:15 UTC]   [OK] pool.ntp.org                 offset=-0.197285 s (-197.285 ms)  delay=0.676075 s (676.075 ms)
+[2026-08-13 02:16:15 UTC]   [OK] time.google.com              offset=-0.229082 s (-229.082 ms)  delay=0.675867 s (675.867 ms)
+[2026-08-13 02:16:15 UTC]   [OK] time.cloudflare.com          offset=+0.261955 s (+261.955 ms)  delay=0.635068 s (635.068 ms)
+[2026-08-13 02:16:15 UTC]   [--] time.apple.com               (sin respuesta)
+[2026-08-13 02:16:15 UTC]   [OK] time.windows.com             offset=+0.053096 s (+53.096 ms)  delay=0.101964 s (101.964 ms)
+[2026-08-13 02:16:15 UTC]   [OK] time.nist.gov                offset=+0.081266 s (+81.266 ms)  delay=0.074428 s (74.428 ms)
+[2026-08-13 02:16:15 UTC]   [OK] 0.south-america.pool.ntp.org offset=+0.034424 s (+34.424 ms)  delay=0.281598 s (281.598 ms)
+[2026-08-13 02:16:15 UTC]   [OK] 1.pool.ntp.org               offset=+0.016566 s (+16.566 ms)  delay=0.236459 s (236.459 ms)
+[2026-08-13 02:16:15 UTC]   => Mejor servidor: time.nist.gov  (delay=74.428 ms, offset=+81.266 ms)
+[2026-08-13 02:16:15 UTC]      T1 (envio cliente)   = 2026-08-12 20:16:13.583 GT
+[2026-08-13 02:16:15 UTC]      T2 (recibe servidor) = 2026-08-12 20:16:13.701 GT
+[2026-08-13 02:16:15 UTC]      T3 (responde server) = 2026-08-12 20:16:13.701 GT
+[2026-08-13 02:16:15 UTC]      T4 (recibe cliente)  = 2026-08-12 20:16:13.657 GT
+[2026-08-13 02:16:15 UTC]   Aplicando offset de +81.266 ms al reloj interno...
+[2026-08-13 02:16:15 UTC]   Reloj interno (despues): 2026-08-12 20:16:15.731 GT  |  2026-08-13 02:16:15.731 UTC
+[2026-08-13 02:16:15 UTC]   >>> Verificacion OK: |offset|=81.266 ms <= umbral 100.000 ms
+[2026-08-13 02:16:15 UTC]   (esperando 60s antes de la siguiente ronda)
