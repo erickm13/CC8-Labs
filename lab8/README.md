@@ -1,5 +1,10 @@
 # Laboratorio #8: LinkState
 
+## 🎥 Video de explicación
+
+Explicación del laboratorio (lógica, cálculos y ejecución de las topologías):
+**https://youtu.be/8AaOYSDY2_0**
+
 En este laboratorio se proporcionan los siguientes archivos para facilitar la implementación:
 
 
