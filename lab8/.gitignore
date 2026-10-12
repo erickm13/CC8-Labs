@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+
+# Notas personales (no son parte del lab)
+GUION_VIDEO.md
+TELEPROMPTER.md
